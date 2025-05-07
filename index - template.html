@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+    <head >
         <meta charset="UTF-8" />
         <!-- Viewport controls how the web page looks on different screens. Without the content attribute
         the viewport does nothing. width=device-width use the actual width of the screen, 
@@ -15,53 +15,55 @@
     </head>
 
     <body>
+        <!-- Remove later. The page-border class is a custom class that adds a border around the page.-->
+        <div class="page-border border border-dark m-4 rounded-3">
 
-        <!-- Header section of the page. This is the first thing users see when they visit the site. -->
-        <header role="banner">
-            <h1>Welcome to My Kaffeparty</h1>
-            <p>Your one-stop shop for coffee and coffee machines.</p>
-        </header>
+            <!-- Header section of the page. This is the first thing users see when they visit the site. -->
+            <header role="banner">
+                <h1>Welcome to My Kaffeparty</h1>
+                <p>Your one-stop shop for coffee and coffee machines.</p>
+            </header>
 
-        <!-- Main content. -->
-        <main class="container mt-4" role="main">
+            <!-- Main content. -->
+            <main class="container mt-4" role="main">
 
-            <!-- Main navigation bar. The navbar is a responsive component that collapses on smaller screens. -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">Kaffeparty</a>
-                    <ul class="navbar-nav flex-row ms-auto">
-                        <!-- The navbar items are links to different sections of the website. 
+                <!-- Main navigation bar. The navbar is a responsive component that collapses on smaller screens. -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">Kaffeparty</a>
+                        <ul class="navbar-nav flex-row ms-auto">
+                            <!-- The navbar items are links to different sections of the website. 
                         me-3: margin end (right hand side) has a spacing of 3px. This list item is active. -->
-                        <li class="nav-item me-3"><a class="nav-link active" aria-current="page"
-                                href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item me-3"><a class="nav-link" href="products.html">Products</a></li>
-                        <li class="nav-item me-3"><a class="nav-link" href="about.html">About</a></li>
-                    </ul>
-                </div>
-            </nav>
+                            <li class="nav-item me-3"><a class="nav-link active" aria-current="page"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item me-3"><a class="nav-link" href="products.html">Products</a></li>
+                            <li class="nav-item me-3"><a class="nav-link" href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </nav>
 
-            <!-- 3 columns.-->
-            <div class="row">
-                
-                <!-- Main content area. This is the main section of the page where most of the content is displayed. -->
-                <section class="col-12 col-md-4" role="section">
-                    <h2>Main Content Section</h2>
-                    <p>This is a paragraph in the main section.</p>
-                </section>
+                <!-- 3 columns.-->
+                <div class="row">
 
-                <!-- Article section. This is a standalone article with its own content. -->
-                <article class="col-12 col-md-4" role="article">
-                    <h2>Article Title</h2>
-                    <p>This is a standalone article with its own content.</p>
-                </article>
+                    <!-- Main content area. This is the main section of the page where most of the content is displayed. -->
+                    <section class="col-12 col-md-4" role="section">
+                        <h2>Main Content Section</h2>
+                        <p>This is a paragraph in the main section.</p>
+                    </section>
 
-                <!-- Sidebar for additional information or links. -->
-                <aside class="col-12 col-md-4" role="complementary">
-                    <h3>Sidebar</h3>
-                    <p>Additional information, links, or advertisements.</p>
-                </aside>
-        </main>
+                    <!-- Article section. This is a standalone article with its own content. -->
+                    <article class="col-12 col-md-4" role="article">
+                        <h2>Article Title</h2>
+                        <p>This is a standalone article with its own content.</p>
+                    </article>
+
+                    <!-- Sidebar for additional information or links. -->
+                    <aside class="col-12 col-md-4" role="complementary">
+                        <h3>Sidebar</h3>
+                        <p>Additional information, links, or advertisements.</p>
+                    </aside>
+            </main>
         </div>
         <!-- Footer section of the page. This is the last thing users see when they visit the site. -->
         <footer class="bg-light text-center text-lg-start mt-5 border-top" role="contentinfo">
@@ -81,7 +83,7 @@
                 </div>
             </div>
         </footer>
-
+        </div>
     </body>
 
 </html>
