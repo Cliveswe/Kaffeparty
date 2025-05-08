@@ -1,5 +1,8 @@
 body, header {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
  background-image: url('../images/structure/body.png');  
+ background-repeat: repeat;
  }
  header {
    position: fixed;
